@@ -45,7 +45,7 @@ const ultId = computed(()=> Math.max(...items.map(i => i.id)))
 
 <template>
   <h1>{{ msg }}</h1>  <h1 v-text="text" ></h1>
-  <h1 :class="classa">Hola mundo {{ classa }}</h1>
+  <h1 :class="classa">Hola mundoaaaa {{ classa }}</h1>
   <div class="card">
     <button type="button" @click="count++" :disabled="count == 15">count is {{ count }}</button>
     <button type="button" @click="count--" :disabled="count == -15">count is {{ count }}</button>
